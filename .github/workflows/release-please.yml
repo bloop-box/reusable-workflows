@@ -49,7 +49,7 @@ jobs:
           ref: ${{ needs.release-please.outputs.tag_name }}
 
       - name: Build
-        uses: INTI-CMNB/KiBot@v2_k8
+        uses: INTI-CMNB/KiBot@v2_k10
         with:
           dir: build
           config: ${{ inputs.config-file }}

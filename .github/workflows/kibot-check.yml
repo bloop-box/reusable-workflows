@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run ERC
-        uses: INTI-CMNB/KiBot@v2_k8
+        uses: INTI-CMNB/KiBot@v2_k10
         with:
           dir: Generated
           config: ${{ inputs.config-file }}
@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run DRC
-        uses: INTI-CMNB/KiBot@v2_k8
+        uses: INTI-CMNB/KiBot@v2_k10
         with:
           dir: Generated
           config: ${{ inputs.config-file }}
